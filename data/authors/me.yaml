@@ -58,35 +58,69 @@ experience:
     start: "2024-09-01"
     end: ""
     summary: ""
+  - role: "CIERA Postdoctoral Fellow"
+    org: "Northwestern University / CIERA"
+    start: "2023-09-01"
+    end: "2024-07-05"
+    summary: ""
+  - role: "CIERA Postdoctoral Associate"
+    org: "Northwestern University / CIERA"
+    start: "2021-07-05"
+    end: "2023-08-31"
+    summary: ""
 skills:
   - name: "Technical Skills"
     items:
       - label: "Python"
         level: 5
       - label: "Machine Learning"
+        level: 3
+      - label: "Bayesian Inference"
         level: 5
-      - label: "Cloud Computing"
+      - label: "Latex"
+        level: 5
+      - label: "Matlab"
+        level: 4
+      - label: "Git"
+        level: 4
+      - label: "Linux"
+        level: 4
+      - label: "Slumr & HTCondor"
+        level: 4
+      - label: "Mathematica"
         level: 4
   - name: "Research & Communication"
     items:
       - label: "Academic Writing"
         level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
+      - label: "Conference Presentation"
+        level: 5
+      - label: "Public Talks"
         level: 4
 languages:
   - name: "English"
-    level: 5
+    level: null
+    label: "Fluent"
+  - name: "Telugu"
+    level: null
     label: "Native"
-  - name: "Spanish"
-    level: 4
+  - name: "Hindi"
+    level: null
     label: "Fluent"
 awards:
-  - title: "Best Paper Award"
-    awarder: "NeurIPS"
-    date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
-    icon: "hero/trophy"
+  - title: "Aneesur Rahman Award, University of Minnesota "
+    awarder: "University of Minnesota"
+    date: "2020-09-01"
+    summary: "A School of Physics and Astronomy award to advanced graduate students with outstanding research contributions"
+    icon: ""
+  - title: "Doctoral Dissertation Fellowship,"
+    awarder: "University of Minnesota "
+    date: "2019-09-01"
+    summary: "A pan university annual fellowship to support the dissertation of the accomplished Ph.D. candidates."
+  - title: "Hoff Lu Fellowship"
+    awarder: "University of Minnesota"
+    date: "2018-09-01"
+    summary: "A School of Physics and Astronomy fellowship to promising graduate students to support a summer of research"
+    icon: ""
 ids:
   orcid: "0000-0001-7852-7484"
