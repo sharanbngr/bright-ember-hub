@@ -40,3 +40,5 @@ hugoblox:
       enable: true
   search:
     enable: true
+    plugins_css:
+      - custom
