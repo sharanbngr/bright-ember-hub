@@ -1,95 +1,91 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ""
 summary: ""
-date: 2022-10-24
-type: landing
-
+date: "2022-10-24"
+type: "landing"
 design:
-  # Default section spacing
   spacing: "6rem"
-
 sections:
-  - block: resume-biography-3
+  - block: "resume-biography-3"
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      username: "me"
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: "Download CV"
+        url: "uploads/resume.pdf"
       headings:
         about: ""
         education: ""
         interests: ""
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: "md"
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+        size: "medium"
+        shape: "circle"
+    oe: "section-76a4b1fa"
+    _internalId: "section-WHC6m1C_"
+  - block: "markdown"
     content:
       title: "📚 My Research"
       subtitle: ""
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am an OzGrav Postdoctoral Fellow at Monash University where I primarily work on gravitational-wave population inference and astrostatistics. It's an exciting time in the land of gravitational-waves. Gravitational-wave detectors like [LIGO](https://www.ligo.caltech.edu/) and [Virgo](https://www.virgo-gw.eu/) have reached unprecedented sensitivies. Just within the last ten years, the [number of detected gravitational-wave mergers has surpassed 200](https://arxiv.org/abs/2508.18082). 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 
-        Please reach out to collaborate 😃
+        My research leverages these detections to study astrophysical BBHs and uncovering
+        the stellar physics that governs their properties and the environments in which they form. My work lies at the
+        interface of astrophysics and data science,  with a particular focus on Bayesian methods for inference.
     design:
       columns: "1"
-  - block: collection
-    id: papers
+    oe: "section-f84efa5e"
+    _internalId: "section-7g7q3i6N"
+  - block: "collection"
     content:
-      title: Featured Publications
+      title: "Featured Publications"
       filters:
         folders:
-          - publications
+          - "publications"
         featured_only: true
     design:
-      view: article-grid
+      view: "article-grid"
       columns: 2
-  - block: collection
+    oe: "section-papers"
+    id: "papers"
+    _internalId: "section-K9mcMY6s"
+  - block: "collection"
     content:
-      title: Recent Publications
+      title: "Recent Publications"
       text: ""
       filters:
         folders:
-          - publications
+          - "publications"
         exclude_featured: false
     design:
-      view: citation
-  - block: collection
-    id: talks
+      view: "citation"
+    oe: "section-6ea1c23a"
+    _internalId: "section-Ly38ydVN"
+  - block: "collection"
     content:
-      title: Recent & Upcoming Talks
+      title: "Recent & Upcoming Talks"
       filters:
         folders:
-          - events
+          - "events"
     design:
-      view: card
-  - block: collection
-    id: news
+      view: "card"
+    oe: "section-talks"
+    id: "talks"
+    _internalId: "section-bNhMIzCp"
+  - block: "collection"
     content:
-      title: Recent News
+      title: "Recent News"
       subtitle: ""
       text: ""
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
+      page_type: "blog"
       count: 10
-      # Filter on criteria
       filters:
         author: ""
         category: ""
@@ -98,20 +94,23 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ""
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      order: "desc"
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
+      view: "card"
       spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the HugoBlox Kit demo site
+        padding:
+          - 0
+          - 0
+          - 0
+          - 0
+    oe: "section-news"
+    id: "news"
+    _internalId: "section-u-qzD5mH"
+  - block: "cta-card"
+    demo: true
     content:
-      title: 👉 Build your own academic website like this
+      title: "👉 Build your own academic website like this"
       text: |-
         This site is generated by HugoBlox Kit - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
 
@@ -121,13 +120,12 @@ sections:
 
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
-        text: Get Started
+        text: "Get Started"
         url: "https://hugoblox.com/templates/"
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-300 dark:bg-primary-700"
         css_style: ""
-
+    oe: "section-2fc030a4"
+    _internalId: "section-x5N49Dte"
 ---
-
