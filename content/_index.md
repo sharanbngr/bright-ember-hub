@@ -51,7 +51,10 @@ sections:
         folders:
           - "publications"
         featured_only: true
+        tags:
+          - ""
       sort_by: "Date"
+      count: 1
     design:
       view: "article-grid"
       columns: 2
@@ -66,16 +69,10 @@ sections:
         folders:
           - "publications"
         exclude_featured: false
-        kinds:
-          - ""
-          - ""
-      count: 4
-      order: "asc"
-      sort_by: "Date"
     design:
       view: "citation"
-    oe: "section-6ea1c23a"
-    _internalId: "section-Ly38ydVN"
+    oe: "section-ddb5db8d"
+    _internalId: "section-X29WoEU5"
   - block: "collection"
     content:
       title: "Recent & Upcoming Talks"
