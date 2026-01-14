@@ -7,12 +7,13 @@ summary: "A quick tour of recent research highlights: multimodal LLMs, efficient
 slides:
   theme: black
   highlight_style: dracula
-  diagram: true  # Enable Mermaid diagrams
+  diagram: true # Enable Mermaid diagrams
   reveal_options:
     controls: true
     progress: true
     slideNumber: true
     hash: true
+
 ---
 
 # Example Talk
