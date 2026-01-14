@@ -25,4 +25,6 @@ tags:
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2501.06712
+featured: true
+
 ---

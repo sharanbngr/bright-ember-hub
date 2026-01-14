@@ -213,4 +213,6 @@ tags:
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2508.18083
+featured: true
+
 ---

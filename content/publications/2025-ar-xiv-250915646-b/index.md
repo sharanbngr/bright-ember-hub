@@ -16,4 +16,6 @@ tags:
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2509.15646
+featured: true
+
 ---

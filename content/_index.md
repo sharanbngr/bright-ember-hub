@@ -44,17 +44,20 @@ sections:
       columns: "1"
     oe: "section-f84efa5e"
     _internalId: "section-7g7q3i6N"
-  - block: collection
-    id: papers
+  - block: "collection"
     content:
-      title: Featured Publications
+      title: "Featured Publications"
       filters:
         folders:
-          - publications
+          - "publications"
         featured_only: true
+      sort_by: "Date"
+      count: 3
     design:
-      view: article-grid
-      columns: 2
+      view: "article-grid"
+    oe: "section-papers"
+    id: "papers"
+    _internalId: "section-K9mcMY6s"
   - block: "collection"
     content:
       title: "Recent Publications"
