@@ -16,6 +16,7 @@ sections:
       headings:
         about: ""
         education: ""
+        experience: ""
         interests: ""
     design:
       background:

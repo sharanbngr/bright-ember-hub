@@ -52,21 +52,12 @@ education:
     start: "2009-08-01"
     end: "2013-04-30"
     summary: "Majored in mechnical engineering with a minor in physcs.\n"
-
 experience:
-  - role: "Senior AI Research Scientist"
-    org: "Meta AI"
-    start: "2020-01-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-  - role: "AI Research Intern"
-    org: "OpenAI"
-    start: "2019-06-01"
-    end: "2019-12-31"
-    summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
+  - role: "OzGrav Postdoctoral Fellow"
+    org: "Monash University"
+    start: "2024-09-01"
+    end: ""
+    summary: ""
 skills:
   - name: "Technical Skills"
     items:
