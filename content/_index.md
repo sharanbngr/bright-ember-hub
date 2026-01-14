@@ -11,8 +11,8 @@ sections:
       username: "me"
       text: ""
       button:
-        text: "Download CV"
-        url: "uploads/resume.pdf"
+        text: "View CV"
+        url: "https://drive.google.com/open?id=1-38s10AcNuyrwlicbFjJEvtDfSszGq23&usp=drive_fs"
       headings:
         about: ""
         education: ""
@@ -51,6 +51,7 @@ sections:
         folders:
           - "publications"
         featured_only: true
+      sort_by: "Date"
     design:
       view: "article-grid"
       columns: 2
@@ -65,6 +66,12 @@ sections:
         folders:
           - "publications"
         exclude_featured: false
+        kinds:
+          - ""
+          - ""
+      count: 4
+      order: "asc"
+      sort_by: "Date"
     design:
       view: "citation"
     oe: "section-6ea1c23a"
