@@ -19,7 +19,8 @@ links:
 featured: true
 
 image:
-  caption: "Image credit: [Three Subopopulations](./Three_pops)"
-  focal_point: ""
-  preview_only: false
+  filename: "Three_pops.png"
+  focal_point: Smart      # Smart, Center, TopLeft, etc.
+  preview_only: false     # true = social only, hide on page
+  alt_text: "A description of the image"
 ---
