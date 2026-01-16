@@ -214,5 +214,9 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2508.18083
 featured: true
-
+image:
+  filename: "GWTC4_skewed.png"
+  focal_point: Smart      # Smart, Center, TopLeft, etc.
+  preview_only: false     # true = social only, hide on page
+  alt_text: "A description of the image"
 ---
