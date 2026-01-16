@@ -17,4 +17,9 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2509.15646
 featured: true
+
+image:
+  caption: "Image credit: [Three Subopopulations](./Three_pops)"
+  focal_point: ""
+  preview_only: false
 ---
